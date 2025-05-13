@@ -1,0 +1,5 @@
+Dollar_p =float(input("Current Dollar Price = "))
+Dollar = float(input("Dollar = "))
+INR = (Dollar*Dollar_p)
+
+print("Rupees = ",INR)

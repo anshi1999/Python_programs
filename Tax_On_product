@@ -1,0 +1,7 @@
+ 
+GST =int(input("GST = "))
+P = int(input("P = "))
+T = ((GST/100)*P)
+
+print("Tax = ",T)
+print("Total Tax= ", P + T)

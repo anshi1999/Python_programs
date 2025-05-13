@@ -1,0 +1,3 @@
+years =int(input("Years = "))
+days = (years*365)
+print(days)

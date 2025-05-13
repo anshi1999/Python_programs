@@ -1,0 +1,4 @@
+pi = 3.14 
+R =int(input("R = "))
+
+print(pi*(R**R))

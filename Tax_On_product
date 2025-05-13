@@ -1,7 +1,7 @@
  
-GST =int(input("GST = "))
-P = int(input("P = "))
-T = ((GST/100)*P)
+TR =float(input("Tax Rate = "))
+P = float(input("Product Value = "))
+T = ((TR/100)*P)
 
 print("Tax = ",T)
 print("Total Tax= ", P + T)

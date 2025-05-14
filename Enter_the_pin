@@ -1,0 +1,13 @@
+i=1
+while i<=3:
+    i+=1
+    pin=int(input('enter pin='))
+    if pin==1234:
+        print('valid')
+        break
+    else:
+        if i==4:
+            print('max attempts completed,try again after 24 hrs')
+        else:
+            print('invalid,try again..')
+print('thank you')

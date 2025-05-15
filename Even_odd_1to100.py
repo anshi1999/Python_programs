@@ -27,3 +27,12 @@ while i>=0:
     if i%2 !=0:
         print(i)
     i-=1
+
+
+
+#Using for 
+for i in range(1,101):
+    if i%2==0:
+        print(i,'even')
+    else:
+        print(i,'odd')

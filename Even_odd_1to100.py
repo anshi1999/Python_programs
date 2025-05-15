@@ -36,3 +36,11 @@ for i in range(1,101):
         print(i,'even')
     else:
         print(i,'odd')
+
+
+#Reverse
+for i in range(100,0,-1):
+    if i%2==0:
+        print(i,'even')
+    else:
+        print(i,'odd')

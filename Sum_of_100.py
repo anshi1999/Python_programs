@@ -15,3 +15,11 @@ while i<10:
     i+=1
     sum = sum +i
 print(sum)
+
+
+
+#Using for
+s=0
+for i in range(1,101):
+   s=s+i
+print(s)

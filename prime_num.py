@@ -12,7 +12,7 @@ else:
 
 num=int(input('enter num='))
 i=2
-while i<num:
+while i<=num-1:
     if num%i==0:
         print('not prime')
         break

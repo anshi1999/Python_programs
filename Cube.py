@@ -5,10 +5,8 @@ for i in range(1,num+1):
 
 
 # Using While
-num=int(input('enter num='))
-i = 1
-c = 1
-while i <=num:
-    cb = i**3
+num = int(input("Num ="))
+i = 0
+while i <num+1:
     i+=1
-    print(i,cb)
+    print(i,"=",i**3)
